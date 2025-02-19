@@ -21,11 +21,11 @@ Word Finder (Bonus Task):
 This will search for word_to_find in sample.txt using 4 worker processes.
 
 ─ main.c: Driver program
-─ mapreduce.c: Core logic for map and reduce
-─ user_functions.c: Custom map/reduce functions
-─ mapreduce.h: Header file for mapreduce functions
-─ user_functions.h: Header file for user-defined functions
-─ input-moon10.txt: Sample input files for testing
+─ mapreduce.c: Core logic for map and reduce<br />
+─ user_functions.c: Custom map/reduce functions<br />
+─ mapreduce.h: Header file for mapreduce functions<br />
+─ user_functions.h: Header file for user-defined functions<br />
+─ input-moon10.txt: Sample input files for testing<br />
 
 Map Phase:
 The input file is split into N parts based on the number of processes.
