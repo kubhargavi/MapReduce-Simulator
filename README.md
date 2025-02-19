@@ -16,7 +16,7 @@ Letter Counter:
 ./run-mapreduce "counter" sample.txt 4
 This will count the occurrences of letters (A-Z) in sample.txt using 4 worker processes.
 
-Word Finder (Bonus Task):
+Word Finder:
 ./run-mapreduce "finder" sample.txt 4 "word_to_find"
 This will search for word_to_find in sample.txt using 4 worker processes.
 
