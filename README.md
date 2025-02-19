@@ -20,7 +20,7 @@ Word Finder (Bonus Task):
 ./run-mapreduce "finder" sample.txt 4 "word_to_find"
 This will search for word_to_find in sample.txt using 4 worker processes.
 
-─ main.c: Driver program
+─ main.c: Driver program<br />
 ─ mapreduce.c: Core logic for map and reduce<br />
 ─ user_functions.c: Custom map/reduce functions<br />
 ─ mapreduce.h: Header file for mapreduce functions<br />
