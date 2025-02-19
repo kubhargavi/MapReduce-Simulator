@@ -29,7 +29,7 @@ This will search for word_to_find in sample.txt using 4 worker processes.
 
 Map Phase:
 The input file is split into N parts based on the number of processes.
-Each worker process reads its assigned split and applies a map function.
+Each worker process reads its assigned split and applies a map function.<br />
 Reduce Phase:
 The first worker forks the reduce process.
 The reducer merges the results from all intermediate files and outputs the final counts.
